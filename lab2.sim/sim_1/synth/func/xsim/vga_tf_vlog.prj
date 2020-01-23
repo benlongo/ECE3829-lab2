@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../lab2.srcs/sources_1/ip/clk_wiz_0" \
+"vga_tf_func_synth.v" \
+"../../../../../lab2.srcs/sim_1/new/vga_tf.v" \
+
+# Do not sort compile order
+nosort
